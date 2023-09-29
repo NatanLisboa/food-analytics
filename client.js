@@ -9,8 +9,8 @@ const config = {
 
 let accessToken = "";
 
-function find() {
-  alert("Find resource with access token " + accessToken);
+function search() {
+  alert("Searching for resource with access token " + accessToken);
 
   $.ajax({
     url: config.cuisinesUrl,
